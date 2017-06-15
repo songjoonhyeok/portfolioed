@@ -106,4 +106,14 @@ $(function(){
     //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
     $('#article').parallax("50%", 0.3);
 
+    //미디어 구간
+    $('.text-1 li.view-img a').click(function(i){
+      i.preventDefault() //a태그 기능 (링크 )막아줌.
+      var url = $(this).attr('href');
+      url = "https://www.youtube.com/embed/"+ url +"?rel=0&amp;showinfo=0"
+      $('.main-video iframe').attr('src',url);
+      $(this).children('img').fadeTo(500,0.5).parent().parent().siblings().find('img').fadeTo(500,1)
+    })
+
+
  })
