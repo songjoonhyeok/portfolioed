@@ -45,7 +45,7 @@ body {
 header {
   outline: 1px blue solid;
   width: 100%;
-  height: 760px;
+  min-height: 760px;
   outline: 1px red solid;
   overflow: hidden;
 }
@@ -86,7 +86,7 @@ header {
   position: relative;
   top: 0px;
   margin: 0 auto;
-  width: 100%;
+  max-width: 100%;
 }
 .slide li cite {
   font-size: 1.5vw;
@@ -212,7 +212,7 @@ li.on a button {
 .nav {
   width: 100%;
   height: 100px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
   z-index: 100;
   padding: 0px 20px;
@@ -628,7 +628,6 @@ section img {
 .icon_list {
   width: 100%;
   height: 120px;
-  border-top: 1px #5f5f5f solid;
   margin-top: 20px;
   padding: 0px 20px 0px 20px;
   position: relative;
@@ -662,8 +661,8 @@ section img {
   height: 418px;
   float: left;
   background-color: black;
-  margin-top: -17px;
   background-color: #2b2b2b;
+  padding: 0px 20px;
 }
 #footer .text1 {
   height: 70px;

@@ -7,6 +7,22 @@ $(function(){
       $('.nav>ul>li').children('div').stop().slideUp()
   })
 
+      // 마우스 스크롤 탑값 변동
+
+     $(window).scroll(function(){
+        var src = $(this).scrollTop();
+
+        if (src >= 70){
+
+          $('.nav').css({
+            'marginTop':0
+          })
+        }else if (src <= 70){
+          $('.nav').css({
+            'marginTop':'70px'
+          })
+        }
+     })
 
     var idx = 0;
     var speed = 10000;
@@ -78,7 +94,7 @@ $(function(){
 
     // 상품 하버 가변그리드(품목 4종)
     $('.contents li').hover(function(){
-      $(this).children('span').stop().animate({'margin-left':'60%'}).parent().children('.text').stop().animate({'margin-left':'500px'})
+      $(this).children('span').stop().animate({'margin-left':'60%'}).parent().children('.text').stop().animate({'margin-left':'420px'})
     },function(){
       $(this).children('span').stop().animate({'margin-left':'0%'}).parent().children('.text').stop().animate({'margin-left':'0%'})
     }
@@ -87,14 +103,14 @@ $(function(){
 
   // 상품 하버 가변그리드(품목 3종)
   $('.section1 li').hover(function(){
-    $(this).children('span').stop().animate({'margin-left':'60%'}).parent().children('.text').stop().animate({'margin-left':'500px'})
+    $(this).children('span').stop().animate({'margin-left':'60%'}).parent().children('.text').stop().animate({'margin-left':'450px'})
   },function(){
     $(this).children('span').stop().animate({'margin-left':'0%'}).parent().children('.text').stop().animate({'margin-left':'0%'})
   })
 
   // 상품 하버 가변그리드(품목 5종)
   $('.section2 li').hover(function(){
-    $(this).children('span').stop().animate({'margin-left':'60%'}).parent().children('.text').stop().animate({'margin-left':'500px'})
+    $(this).children('span').stop().animate({'margin-left':'60%'}).parent().children('.text').stop().animate({'margin-left':'470px'})
   },function(){
     $(this).children('span').stop().animate({'margin-left':'0%'}).parent().children('.text').stop().animate({'margin-left':'0%'})
   })
