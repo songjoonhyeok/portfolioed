@@ -43,21 +43,17 @@ body {
   clear: right;
 }
 header {
-  outline: 1px blue solid;
   width: 100%;
   min-height: 760px;
-  outline: 1px red solid;
   overflow: hidden;
 }
 .slide {
-  outline: 1px red solid;
   position: relative;
 }
 .slide div {
   height: 100%;
 }
 .slide li {
-  outline: 1px red solid;
   display: inline-block;
 }
 .slide li > a {
@@ -310,7 +306,6 @@ li.on a button {
   width: 100%;
 }
 section {
-  outline: 1px black solid;
   widht: 100%;
   height: 500px;
   padding: 80px 20px 40px 20px;
@@ -361,7 +356,6 @@ section img {
 #article {
   width: 100%;
   height: 550px;
-  outline: 1px red solid;
   background-image: url(img/fr1.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -414,7 +408,6 @@ section img {
 .section1 .text-logo {
   width: 230px;
   height: 70px;
-  outline: 1px red solid;
   text-align: center;
   margin: 0 auto;
   margin-top: 30px;
@@ -499,7 +492,6 @@ section img {
 .section2 .text-logo {
   width: 230px;
   height: 70px;
-  outline: 1px red solid;
   text-align: center;
   margin: 0 auto;
   margin-top: 30px;
@@ -543,13 +535,11 @@ section img {
 .section2 .lest-left {
   width: 48%;
   height: 430px;
-  outline: 1px black solid;
   margin: 2% 0.5% 0% 0.5%;
 }
 .section2 .lest-right {
   width: 48%;
   height: 430px;
-  outline: 1px black solid;
   margin: 2% 0.5% 0% 0.5%;
 }
 .section3 {
