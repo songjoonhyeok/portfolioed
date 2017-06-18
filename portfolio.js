@@ -1,11 +1,28 @@
 $(function(){
-
+  //
   $('.nav>ul>li').hover(function(){
       $('.nav>ul>li').children('div').stop().slideDown()
 
   },function(){
       $('.nav>ul>li').children('div').stop().slideUp()
   })
+
+// function open_chatroom(){
+//         var windowWidth = $( window ).width();
+//
+//         if(windowWidth < 1030 , windowWidth = 1030) {
+//                 console.log('windowWidth');
+//           $('.nav>ul>li').onclick(function(){
+//              $(this).children('div').css('display','block')
+//           })
+//            //창 가로 크기가 1030 미만일 경우
+//         }else if(windowWidth > 1030){
+//           $('.nav>ul>li').click() = null;
+//            //창 가로 크기가 1030보다 클 경우
+//         }
+//       }
+
+
 
       // 마우스 스크롤 탑값 변동
 

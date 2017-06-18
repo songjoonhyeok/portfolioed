@@ -259,7 +259,7 @@ li.on a button {
   width: 0%;
   height: 2px;
   position: absolute;
-  top: 73px;
+  top: 50px;
   left: 0;
 }
 .category:hover .line {
