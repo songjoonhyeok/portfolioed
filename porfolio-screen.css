@@ -93,7 +93,6 @@ body {
     background-position: center;
     position: relative;
     top: 20px;
-    outlune: 1px red solid;
   }
   .nav > h1 > a {
     text-decoration: none;
@@ -105,16 +104,29 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
-  .slide li cite {
-    font-size: 1.5vw;
-    font-weight: bold;
+  .slide li div > .text-img {
+    position: relative;
+    z-index: 99;
+    width: 300px;
+    top: -383px;
+    height: 200px;
+    left: 6%;
+    text-align: center;
   }
-  .slide li strong {
+  .slide li cite {
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+  .slide li cite.pan27 {
+    left: 27%;
+  }
+  .slide li div > .slide-list {
     position: absolute;
-    top: 450px;
-    left: 300px;
+    top: 90px;
+    left: 80px;
     font-size: 1.0vw;
-    border: 1px #a9a9a9 solid;
     color: #ff8b8b;
     text-transform: capitalize;
     width: 150px;
@@ -125,21 +137,9 @@ body {
   .slide li span {
     display: block;
     position: absolute;
-    top: 300px;
-    left: 50px;
+    top: 0px;
+    left: 0px;
     color: #e35d5d;
-  }
-  .slide li strong {
-    position: absolute;
-    top: 370px;
-    left: 80px;
-    font-size: 1.0vw;
-    border: 1px #a9a9a9 solid;
-    color: #ff8b8b;
-    text-transform: capitalize;
-    width: 150px;
-    height: 40px;
-    line-height: 3;
   }
   .slide li > a {
     position: relative;
@@ -184,7 +184,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -192,7 +191,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -200,7 +198,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -208,7 +205,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -216,7 +212,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -256,7 +251,6 @@ body {
     width: 100%;
   }
   section {
-    outline: 1px black solid;
     widht: 100%;
     height: 500px;
     padding: 80px 20px 40px 20px;
@@ -394,7 +388,6 @@ body {
     background-position: center;
     position: relative;
     top: 20px;
-    outlune: 1px red solid;
   }
   .nav > h1 > a {
     text-decoration: none;
@@ -406,16 +399,29 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
+  .slide li div > .text-img {
+    position: relative;
+    z-index: 99;
+    width: 300px;
+    top: -383px;
+    height: 200px;
+    left: 6%;
+    text-align: center;
+  }
   .slide li cite {
     font-size: 1.5vw;
     font-weight: bold;
+    text-align: center;
+    display: block;
   }
-  .slide li strong {
+  .slide li cite.pan27 {
+    left: 27%;
+  }
+  .slide li div > .slide-list {
     position: absolute;
-    top: 450px;
-    left: 300px;
+    top: 90px;
+    left: 80px;
     font-size: 1.0vw;
-    border: 1px #a9a9a9 solid;
     color: #ff8b8b;
     text-transform: capitalize;
     width: 150px;
@@ -426,21 +432,9 @@ body {
   .slide li span {
     display: block;
     position: absolute;
-    top: 300px;
-    left: 50px;
+    top: 0px;
+    left: 0px;
     color: #e35d5d;
-  }
-  .slide li strong {
-    position: absolute;
-    top: 370px;
-    left: 80px;
-    font-size: 1.0vw;
-    border: 1px #a9a9a9 solid;
-    color: #ff8b8b;
-    text-transform: capitalize;
-    width: 150px;
-    height: 40px;
-    line-height: 3;
   }
   .slide li > a {
     position: relative;
@@ -485,7 +479,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -493,7 +486,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -501,7 +493,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -509,7 +500,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -517,7 +507,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -608,7 +597,6 @@ body {
     background-position: center;
     position: relative;
     top: 20px;
-    outlune: 1px red solid;
   }
   .nav > h1 > a {
     text-decoration: none;
@@ -620,16 +608,29 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
-  .slide li cite {
-    font-size: 1.5vw;
-    font-weight: bold;
+  .slide li div > .text-img {
+    position: relative;
+    z-index: 99;
+    width: 300px;
+    top: -383px;
+    height: 200px;
+    left: 6%;
+    text-align: center;
   }
-  .slide li strong {
+  .slide li cite {
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+  .slide li cite.pan27 {
+    left: 27%;
+  }
+  .slide li div > .slide-list {
     position: absolute;
-    top: 450px;
-    left: 300px;
+    top: 90px;
+    left: 80px;
     font-size: 1.0vw;
-    border: 1px #a9a9a9 solid;
     color: #ff8b8b;
     text-transform: capitalize;
     width: 150px;
@@ -640,21 +641,9 @@ body {
   .slide li span {
     display: block;
     position: absolute;
-    top: 200px;
-    left: 50px;
+    top: 0px;
+    left: 0px;
     color: #e35d5d;
-  }
-  .slide li strong {
-    position: absolute;
-    top: 280px;
-    left: 80px;
-    font-size: 1.0vw;
-    border: 1px #a9a9a9 solid;
-    color: #ff8b8b;
-    text-transform: capitalize;
-    width: 150px;
-    height: 40px;
-    line-height: 3;
   }
   .slide li > a {
     position: relative;
@@ -699,7 +688,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -707,7 +695,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -715,7 +702,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -723,7 +709,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -731,7 +716,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 25%;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -771,7 +755,6 @@ body {
     width: 100%;
   }
   section {
-    outline: 1px black solid;
     widht: 100%;
     height: 500px;
     padding: 80px 20px 40px 20px;
@@ -882,8 +865,7 @@ body {
     top: 0px;
     right: 0px;
     width: 200px;
-    height: 35%;
-    border: 1px blue solid;
+    height: 60%;
   }
   .nav > ul {
     position: absolute;
@@ -893,7 +875,6 @@ body {
     line-height: 50px;
     font-size: 0px;
     text-align: center;
-    outline: 1px red solid;
     width: 200px;
   }
   .nav > ul > li {
@@ -916,7 +897,6 @@ body {
     background-position: center;
     position: relative;
     top: 20px;
-    outlune: 1px red solid;
   }
   .nav > h1 > a {
     text-decoration: none;
@@ -928,34 +908,47 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
+  .slide li div > .text-img {
+    position: relative;
+    z-index: 99;
+    width: 300px;
+    top: -288px;
+    height: 200px;
+    left: 6%;
+    text-align: center;
+  }
   .slide li cite {
     font-size: 1.5vw;
     font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+  .slide li cite.pan27 {
+    left: 27%;
+  }
+  .slide li div > .slide-list {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    font-size: 1.0vw;
+    color: #ff8b8b;
+    text-transform: capitalize;
+    width: 150px;
+    height: 40px;
+    line-height: 2;
   }
   .slide li cite,
   .slide li span {
     display: block;
     position: absolute;
-    top: 120px;
-    left: 50px;
+    top: 0px;
+    left: 0px;
     color: #e35d5d;
-  }
-  .slide li strong {
-    position: absolute;
-    top: 800%;
-    left: 8%;
-    font-size: 1.0vw;
-    border: 1px #a9a9a9 solid;
-    color: #ff8b8b;
-    text-transform: capitalize;
-    width: 150px;
-    height: 40px;
-    line-height: 3;
   }
   .slide li > a {
     position: relative;
-    top: 240px;
-    left: 600%;
+    top: 280px;
+    left: 680%;
     z-index: 10;
     display: block;
     background-image: url(img/btn.png);
@@ -1003,35 +996,30 @@ body {
   .won1 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won2 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won3 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won4 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won5 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -1083,7 +1071,6 @@ body {
     width: 100%;
   }
   section {
-    outline: 2px black solid;
     widht: 100%;
     height: 800px;
     padding: 80px 20px 40px 20px;
@@ -1409,7 +1396,6 @@ body {
     position: absolute;
     top: 0%;
     left: 50%;
-    width: 42%;
   }
   .section3 .text-1 > ul > li:nth-child(3) {
     position: absolute;
@@ -1420,13 +1406,11 @@ body {
     font-size: 0.7vw;
   }
   .section3 .text-1 > ul > li > a {
-    width: 150px;
+    width: 100px;
     display: inline-block;
-    height: 35px;
+    height: 50px;
     text-decoration: none;
     color: #fff;
-    border: 1px #b9b9b9 solid;
-    border-radius: 1%;
     margin-top: 20px;
   }
   .section3 .text-1 .view-img > ul > li {
@@ -1438,6 +1422,9 @@ body {
     font-weight: bold;
     font-size: 1.0vw;
     text-transform: capitalize;
+  }
+  .view-img {
+    width: 100%;
   }
   .icon_list {
     width: 100%;
@@ -1496,7 +1483,6 @@ body {
     right: 0px;
     width: 200px;
     height: 40%;
-    border: 1px blue solid;
   }
   .nav > ul {
     position: absolute;
@@ -1506,7 +1492,6 @@ body {
     line-height: 50px;
     font-size: 0px;
     text-align: center;
-    outline: 1px red solid;
     width: 200px;
   }
   .nav > ul > li {
@@ -1529,7 +1514,6 @@ body {
     background-position: center;
     position: relative;
     top: 20px;
-    outlune: 1px red solid;
   }
   .nav > h1 > a {
     text-decoration: none;
@@ -1541,34 +1525,47 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
+  .slide li div > .text-img {
+    position: relative;
+    z-index: 99;
+    width: 300px;
+    top: -288px;
+    height: 200px;
+    left: 6%;
+    text-align: center;
+  }
   .slide li cite {
-    font-size: 1.5vw;
+    font-size: 2.0vw;
     font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+  .slide li cite.pan27 {
+    left: 0%;
+  }
+  .slide li div > .slide-list {
+    position: absolute;
+    top: 123px;
+    left: 55px;
+    font-size: 1.0vw;
+    color: #ff8b8b;
+    text-transform: capitalize;
+    width: 150px;
+    height: 40px;
+    line-height: 2;
   }
   .slide li cite,
   .slide li span {
     display: block;
     position: absolute;
-    top: 120px;
-    left: 50px;
+    top: 80px;
+    left: 0px;
     color: #e35d5d;
-  }
-  .slide li strong {
-    position: absolute;
-    top: 800%;
-    left: 8%;
-    font-size: 1.0vw;
-    border: 1px #a9a9a9 solid;
-    color: #ff8b8b;
-    text-transform: capitalize;
-    width: 150px;
-    height: 40px;
-    line-height: 3;
   }
   .slide li > a {
     position: relative;
     top: 230px;
-    left: 300px;
+    left: 100%;
     z-index: 10;
     display: block;
     background-image: url(img/btn.png);
@@ -1616,35 +1613,30 @@ body {
   .won1 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won2 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won3 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won4 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won5 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -1693,7 +1685,6 @@ body {
     width: 100%;
   }
   section {
-    outline: 2px black solid;
     widht: 100%;
     height: 800px;
     padding: 80px 20px 40px 20px;
@@ -2033,7 +2024,6 @@ body {
     height: 35px;
     text-decoration: none;
     color: #fff;
-    border: 1px #b9b9b9 solid;
     border-radius: 1%;
     margin-top: 20px;
   }
@@ -2133,7 +2123,6 @@ body {
     background-position: center;
     position: relative;
     top: 20px;
-    outlune: 1px red solid;
   }
   .nav > h1 > a {
     text-decoration: none;
@@ -2145,29 +2134,42 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
+  .slide li div > .text-img {
+    position: relative;
+    z-index: 99;
+    width: 300px;
+    top: -187px;
+    height: 100px;
+    left: 6%;
+    text-align: center;
+  }
   .slide li cite {
-    font-size: 1.5vw;
+    font-size: 2.0vw;
     font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+  .slide li cite.pan27 {
+    left: 0%;
+  }
+  .slide li div > .slide-list {
+    position: absolute;
+    top: 55px;
+    left: -10px;
+    font-size: 1.0vw;
+    color: #ff8b8b;
+    text-transform: capitalize;
+    width: 150px;
+    height: 40px;
+    line-height: 2;
   }
   .slide li cite,
   .slide li span {
     display: block;
     position: absolute;
-    top: 50px;
-    left: 40px;
+    top: 40px;
+    left: 0px;
     color: #e35d5d;
-  }
-  .slide li strong {
-    position: absolute;
-    top: 400%;
-    left: 8%;
-    font-size: 1.0vw;
-    border: 1px #a9a9a9 solid;
-    color: #ff8b8b;
-    text-transform: capitalize;
-    width: 20%;
-    height: 30px;
-    line-height: 3;
   }
   .slide li > a {
     position: relative;
@@ -2220,35 +2222,30 @@ body {
   .won1 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won2 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won3 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won4 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won5 {
     width: 20px;
     height: 20px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -2297,7 +2294,6 @@ body {
     width: 100%;
   }
   section {
-    outline: 2px black solid;
     widht: 100%;
     height: 1750px;
     padding: 80px 20px 40px 20px;
@@ -2647,14 +2643,20 @@ body {
     font-size: 0.7vw;
   }
   .section3 .text-1 > ul > li > a {
-    width: 150px;
+    width: 100px;
     display: inline-block;
-    height: 35px;
+    height: 50px;
     text-decoration: none;
     color: #fff;
-    border: 1px #b9b9b9 solid;
-    border-radius: 1%;
     margin-top: 20px;
+  }
+  .section3 .text-1 > ul > li > .view-list1 {
+    width: 100px;
+    display: inline-block;
+    height: 50px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 30px;
   }
   .section3 .text-1 .view-img > ul > li {
     width: 24%;
@@ -2757,7 +2759,6 @@ body {
     position: relative;
     top: 20px;
     left: 30px;
-    outlune: 1px red solid;
   }
   .nav > h1 > a {
     text-decoration: none;
@@ -2769,31 +2770,34 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
+  .slide li div > .text-img {
+    position: relative;
+    z-index: 99;
+    width: 151px;
+    top: -100px;
+    height: 100px;
+    left: 6%;
+    text-align: center;
+  }
   .slide li cite {
-    font-size: 1.5vw;
+    font-size: 2.0vw;
     font-weight: bold;
-  }
-  .slide li cite,
-  .slide li span {
+    text-align: center;
     display: block;
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    color: #e35d5d;
   }
-  .slide li strong {
+  .slide li cite.pan27 {
+    left: 0%;
+  }
+  .slide li div > .slide-list {
     position: absolute;
-    top: 368%;
-    left: 8%;
+    top: 55px;
+    left: 30px;
     font-size: 1.0vw;
-    border: 1px #a9a9a9 solid;
     color: #ff8b8b;
     text-transform: capitalize;
-    width: 25%;
-    height: 10px;
-    line-height: 1;
-    border-top-right-radius: 10%;
-    border-top-left-radius: 10%;
+    width: 50px;
+    height: 25px;
+    line-height: 2;
   }
   .slide li > a {
     position: relative;
@@ -2846,35 +2850,30 @@ body {
   .won1 {
     width: 5px;
     height: 5px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won2 {
     width: 5px;
     height: 5px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won3 {
     width: 5px;
     height: 5px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won4 {
     width: 5px;
     height: 5px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
   .won5 {
     width: 5px;
     height: 5px;
-    border: 1px red solid;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
   }
@@ -2923,7 +2922,6 @@ body {
     width: 100%;
   }
   section {
-    outline: 2px black solid;
     widht: 100%;
     height: 1750px;
     padding: 80px 20px 40px 20px;
@@ -3273,14 +3271,15 @@ body {
     font-size: 0.7vw;
   }
   .section3 .text-1 > ul > li > a {
-    width: 150px;
+    width: 100px;
     display: inline-block;
-    height: 35px;
+    height: 50px;
     text-decoration: none;
     color: #fff;
-    border: 1px #b9b9b9 solid;
-    border-radius: 1%;
     margin-top: 20px;
+  }
+  .section3 .text-1 > ul > li > .view-list {
+    margin-top: 56px;
   }
   .section3 .text-1 .view-img > ul > li {
     width: 24%;

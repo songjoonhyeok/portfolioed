@@ -1,5 +1,5 @@
 $(function(){
-  //
+  //------------------------------------윈도우 리사이징
   var events = function(){
 
       var ww = $(this).width();
@@ -7,6 +7,7 @@ $(function(){
 
       if(ww > 1030 ){
           //pc
+          // 창가로  크기가 1030 미만 일경우
           $('.nav>ul>li').mouseenter(function(){
               $('.nav>ul>li').children('div').stop().slideDown()
 
@@ -16,7 +17,7 @@ $(function(){
           })
       } else if(ww <= 1030 ){
         //mobile
-
+        // 창가로  크기가 1030 클 경우
         $('.nav>ul>li').mouseenter(function(){
             $(this).children('div').stop().slideDown()
 
@@ -30,6 +31,7 @@ $(function(){
   }
   $(window).resize(events)
    $(window).trigger('resize')
+
 // function open_chatroom(){
 //         var windowWidth = $( window ).width();
 //
@@ -134,7 +136,7 @@ $(function(){
 
     // 상품 하버 가변그리드(품목 4종)
     $('.contents li').hover(function(){
-      $(this).children('span').stop().animate({'margin-left':'60%'}).parent().children('.text').stop().animate({'margin-left':'420px'})
+      $(this).children('span').stop().animate({'margin-left':'60%'}).parent().children('.text').stop().animate({'margin-left':'460px'})
     },function(){
       $(this).children('span').stop().animate({'margin-left':'0%'}).parent().children('.text').stop().animate({'margin-left':'0%'})
     }
@@ -143,14 +145,14 @@ $(function(){
 
   // 상품 하버 가변그리드(품목 3종)
   $('.section1 li').hover(function(){
-    $(this).children('span').stop().animate({'margin-left':'60%'}).parent().children('.text').stop().animate({'margin-left':'450px'})
+    $(this).children('span').stop().animate({'margin-left':'60%'}).parent().children('.text').stop().animate({'margin-left':'460px'})
   },function(){
     $(this).children('span').stop().animate({'margin-left':'0%'}).parent().children('.text').stop().animate({'margin-left':'0%'})
   })
 
   // 상품 하버 가변그리드(품목 5종)
   $('.section2 li').hover(function(){
-    $(this).children('span').stop().animate({'margin-left':'60%'}).parent().children('.text').stop().animate({'margin-left':'470px'})
+    $(this).children('span').stop().animate({'margin-left':'60%'}).parent().children('.text').stop().animate({'margin-left':'500px'})
   },function(){
     $(this).children('span').stop().animate({'margin-left':'0%'}).parent().children('.text').stop().animate({'margin-left':'0%'})
   })

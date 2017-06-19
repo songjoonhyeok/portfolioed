@@ -84,16 +84,29 @@ header {
   margin: 0 auto;
   max-width: 100%;
 }
-.slide li cite {
-  font-size: 1.5vw;
-  font-weight: bold;
+.slide li div > .text-img {
+  position: relative;
+  z-index: 99;
+  width: 300px;
+  top: -450px;
+  height: 200px;
+  left: 12%;
+  text-align: center;
 }
-.slide li strong {
+.slide li cite {
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+.slide li cite.pan27 {
+  left: 27%;
+}
+.slide li div > .slide-list {
   position: absolute;
-  top: 450px;
-  left: 300px;
+  top: 90px;
+  left: 80px;
   font-size: 1.0vw;
-  border: 1px #a9a9a9 solid;
   color: #ff8b8b;
   text-transform: capitalize;
   width: 150px;
@@ -104,8 +117,8 @@ header {
 .slide li span {
   display: block;
   position: absolute;
-  top: 350px;
-  left: 200px;
+  top: 0px;
+  left: 0px;
   color: #e35d5d;
   /*<!-- cite=제목태그 -->*/
 }
@@ -353,6 +366,15 @@ section img {
   width: 317px;
   height: 190px;
 }
+.button-list {
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+}
+.button-list > img {
+  width: 100%;
+  height: 100%;
+}
 #article {
   width: 100%;
   height: 550px;
@@ -375,16 +397,15 @@ section img {
   font-size: 1.0vw;
   color: #fff;
 }
-#article .story .float-left a > button {
-  outline: 1px #fff solid;
-  background-color: rgba(255, 255, 255, 0.1);
-  width: 200px;
+#article .story .float-left a > img {
+  width: 100px;
   height: 50px;
   position: relative;
-  left: 45%;
+  left: 47%;
   font-size: 1.0vw;
   text-transform: capitalize;
   color: #fff;
+  border-radius: 30% 30% 30% 30%;
 }
 #article .story .float-left p {
   color: #fff;
@@ -541,6 +562,7 @@ section img {
   width: 48%;
   height: 430px;
   margin: 2% 0.5% 0% 0.5%;
+  float: left;
 }
 .section3 {
   width: 100%;
@@ -596,18 +618,18 @@ section img {
   font-size: 0.7vw;
 }
 .section3 .text-1 > ul > li > a {
-  width: 150px;
+  width: 100px;
   display: inline-block;
-  height: 35px;
+  height: 50px;
   text-decoration: none;
-  color: #fff;
-  border: 1px #b9b9b9 solid;
-  border-radius: 1%;
   margin-top: 20px;
 }
 .section3 .text-1 .view-img > ul > li {
   width: 24%;
   height: 100px;
+}
+.section3 .text-1 > ul > li:nth-child(3) {
+  float: left;
 }
 .view-img > ul > p {
   margin: 15px 0px 0px 0px;
