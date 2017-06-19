@@ -1,12 +1,35 @@
 $(function(){
   //
-  $('.nav>ul>li').hover(function(){
-      $('.nav>ul>li').children('div').stop().slideDown()
+  var events = function(){
 
-  },function(){
-      $('.nav>ul>li').children('div').stop().slideUp()
-  })
+      var ww = $(this).width();
+      console.log(ww)
 
+      if(ww > 1030 ){
+          //pc
+          $('.nav>ul>li').mouseenter(function(){
+              $('.nav>ul>li').children('div').stop().slideDown()
+
+          }).mouseleave(function(){
+            $('.nav>ul>li').children('div').stop().slideUp()
+
+          })
+      } else if(ww <= 1030 ){
+        //mobile
+
+        $('.nav>ul>li').mouseenter(function(){
+            $(this).children('div').stop().slideDown()
+
+        }).mouseleave(function(){
+            $(this).children('div').stop().slideUp()
+
+        })
+
+      }
+
+  }
+  $(window).resize(events)
+   $(window).trigger('resize')
 // function open_chatroom(){
 //         var windowWidth = $( window ).width();
 //
