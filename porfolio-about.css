@@ -217,6 +217,7 @@ section {
 section > .content {
   width: 100%;
   text-align: center;
+  outline: 1px red solid;
 }
 #footer {
   width: 100%;

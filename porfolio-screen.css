@@ -53,7 +53,6 @@ body {
   header .gnb {
     width: 100%;
     height: 50px;
-    padding: 0px 20px;
     position: relative;
     top: 5px;
     background-color: rgba(255, 255, 255, 0.4);
@@ -64,7 +63,6 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     z-index: 10;
-    padding: 0px 20px;
     margin-top: 50px;
   }
   .nav > ul {
@@ -253,7 +251,7 @@ body {
   section {
     widht: 100%;
     height: 500px;
-    padding: 80px 20px 40px 20px;
+    padding: 80px 0px 40px 20px;
   }
   section ul {
     width: 100%;
@@ -348,7 +346,6 @@ body {
   header .gnb {
     width: 100%;
     height: 50px;
-    padding: 0px 20px;
     position: relative;
     top: 5px;
     background-color: rgba(255, 255, 255, 0.4);
@@ -359,7 +356,6 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     z-index: 10;
-    padding: 0px 20px;
     margin-top: 50px;
   }
   .nav > ul {
@@ -557,7 +553,6 @@ body {
   header .gnb {
     width: 100%;
     height: 50px;
-    padding: 0px 20px;
     position: relative;
     top: 5px;
     background-color: rgba(255, 255, 255, 0.4);
@@ -568,7 +563,6 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     z-index: 10;
-    padding: 0px 20px;
     margin-top: 50px;
   }
   .nav > ul {
@@ -757,7 +751,7 @@ body {
   section {
     widht: 100%;
     height: 500px;
-    padding: 80px 20px 40px 20px;
+    padding: 80px 0px 40px 20px;
   }
   section ul {
     width: 100%;
@@ -852,7 +846,6 @@ body {
   header .gnb {
     width: 100%;
     height: 50px;
-    padding: 0px 20px;
     position: relative;
     top: 5px;
     background-color: rgba(255, 255, 255, 0.4);
@@ -861,7 +854,6 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
     z-index: 10;
-    padding: 0px 20px;
     top: 0px;
     right: 0px;
     width: 200px;
@@ -1073,7 +1065,7 @@ body {
   section {
     widht: 100%;
     height: 800px;
-    padding: 80px 20px 40px 20px;
+    padding: 80px 0px 40px 20px;
   }
   section ul {
     width: 100%;
@@ -1166,12 +1158,10 @@ body {
   .section1 {
     width: 100%;
     min-height: 1013px;
-    padding: 0px 20px;
   }
   .section1 ul {
     width: 100%;
     font-size: 0px;
-    padding: 0px 20px;
   }
   .section1 p {
     font-size: 1.0vw;
@@ -1257,12 +1247,10 @@ body {
   .section2 {
     width: 100%;
     height: 1500px;
-    padding: 0px 20px;
   }
   .section2 ul {
     width: 100%;
     font-size: 0px;
-    padding: 0px 20px;
   }
   .section2 p {
     font-size: 1.0vw;
@@ -1334,7 +1322,6 @@ body {
     width: 100%;
     height: 1460px;
     background-color: black;
-    padding: 0px 20px;
   }
   .section3 ul > li {
     width: 48%;
@@ -1430,13 +1417,12 @@ body {
     width: 100%;
     height: 120px;
     margin-top: 20px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 0px 0px 20px;
     position: relative;
     text-align: center;
   }
   .icon_list ul {
     font-size: 0px;
-    padding: 0 20px;
   }
   .icon_list ul > li {
     display: inline-block;
@@ -1469,7 +1455,6 @@ body {
   header .gnb {
     width: 100%;
     height: 50px;
-    padding: 0px 20px;
     position: relative;
     top: 5px;
     background-color: rgba(255, 255, 255, 0.4);
@@ -1478,7 +1463,6 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
     z-index: 10;
-    padding: 0px 20px;
     top: 0px;
     right: 0px;
     width: 200px;
@@ -1687,7 +1671,7 @@ body {
   section {
     widht: 100%;
     height: 800px;
-    padding: 80px 20px 40px 20px;
+    padding: 80px 0px 40px 20px;
   }
   section ul {
     width: 100%;
@@ -1780,12 +1764,10 @@ body {
   .section1 {
     width: 100%;
     min-height: 1013px;
-    padding: 0px 20px;
   }
   .section1 ul {
     width: 100%;
     font-size: 0px;
-    padding: 0px 20px;
   }
   .section1 p {
     font-size: 1.0vw;
@@ -1871,12 +1853,10 @@ body {
   .section2 {
     width: 100%;
     height: 1500px;
-    padding: 0px 20px;
   }
   .section2 ul {
     width: 100%;
     font-size: 0px;
-    padding: 0px 20px;
   }
   .section2 p {
     font-size: 1.0vw;
@@ -1947,7 +1927,6 @@ body {
     width: 100%;
     height: 1460px;
     background-color: black;
-    padding: 0px 20px;
   }
   .section3 ul > li {
     width: 48%;
@@ -2041,13 +2020,12 @@ body {
     width: 100%;
     height: 120px;
     margin-top: 20px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 0px 0px 20px;
     position: relative;
     text-align: center;
   }
   .icon_list ul {
     font-size: 0px;
-    padding: 0 20px;
   }
   .icon_list ul > li {
     display: inline-block;
@@ -2080,7 +2058,6 @@ body {
   header .gnb {
     width: 100%;
     height: 50px;
-    padding: 0px 20px;
     position: relative;
     top: 5px;
     background-color: rgba(255, 255, 255, 0.4);
@@ -2091,7 +2068,6 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     z-index: 10;
-    padding: 0px 20px;
     margin-top: 40px;
   }
   .nav > ul {
@@ -2296,7 +2272,7 @@ body {
   section {
     widht: 100%;
     height: 1750px;
-    padding: 80px 20px 40px 20px;
+    padding: 80px 0px 40px 20px;
   }
   section ul {
     width: 100%;
@@ -2395,12 +2371,10 @@ body {
   .section1 {
     width: 100%;
     min-height: 1500px;
-    padding: 0px 20px;
   }
   .section1 ul {
     width: 100%;
     font-size: 0px;
-    padding: 0px 20px;
   }
   .section1 p {
     font-size: 1.0vw;
@@ -2490,12 +2464,10 @@ body {
   .section2 {
     width: 100%;
     height: 2540px;
-    padding: 0px 20px;
   }
   .section2 ul {
     width: 100%;
     font-size: 0px;
-    padding: 0px 20px;
   }
   .section2 p {
     font-size: 1.0vw;
@@ -2568,7 +2540,6 @@ body {
     width: 100%;
     height: 2080px;
     background-color: black;
-    padding: 0px 20px;
   }
   .section3 ul > li {
     width: 90%;
@@ -2672,13 +2643,12 @@ body {
     width: 100%;
     height: 120px;
     margin-top: 240px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 0px 0px 20px;
     position: relative;
     text-align: center;
   }
   .icon_list ul {
     font-size: 0px;
-    padding: 0 20px;
   }
   .icon_list ul > li {
     display: inline-block;
@@ -2711,7 +2681,6 @@ body {
   header .gnb {
     width: 100%;
     height: 50px;
-    padding: 0px 20px;
     position: relative;
     top: 5px;
     background-color: rgba(255, 255, 255, 0.4);
@@ -2722,7 +2691,6 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     z-index: 10;
-    padding: 0px 20px;
     margin-top: 40px;
   }
   .nav > ul {
@@ -2927,7 +2895,7 @@ body {
   section {
     widht: 100%;
     height: 1750px;
-    padding: 80px 20px 40px 20px;
+    padding: 80px 0px 40px 20px;
   }
   section ul {
     width: 100%;
@@ -3026,12 +2994,10 @@ body {
   .section1 {
     width: 100%;
     min-height: 1500px;
-    padding: 0px 20px;
   }
   .section1 ul {
     width: 100%;
     font-size: 0px;
-    padding: 0px 20px;
   }
   .section1 p {
     font-size: 1.0vw;
@@ -3121,12 +3087,10 @@ body {
   .section2 {
     width: 100%;
     height: 2540px;
-    padding: 0px 20px;
   }
   .section2 ul {
     width: 100%;
     font-size: 0px;
-    padding: 0px 20px;
   }
   .section2 p {
     font-size: 1.0vw;
@@ -3199,7 +3163,6 @@ body {
     width: 100%;
     height: 2080px;
     background-color: black;
-    padding: 0px 20px;
   }
   .section3 ul > li {
     width: 90%;
@@ -3303,13 +3266,12 @@ body {
     width: 100%;
     height: 120px;
     margin-top: 240px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 0px 0px 20px;
     position: relative;
     text-align: center;
   }
   .icon_list ul {
     font-size: 0px;
-    padding: 0 20px;
   }
   .icon_list ul > li {
     display: inline-block;
@@ -3342,7 +3304,6 @@ body {
   header .gnb {
     width: 100%;
     height: 50px;
-    padding: 0px 20px;
     position: relative;
     top: 5px;
     font-size: 5px;
@@ -3357,7 +3318,6 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     z-index: 10;
-    padding: 0px 20px;
     margin-top: 50px;
   }
   .nav > ul {
@@ -3555,7 +3515,7 @@ body {
   section {
     widht: 100%;
     height: 1750px;
-    padding: 80px 20px 40px 20px;
+    padding: 80px 0px 40px 20px;
   }
   section ul {
     width: 100%;
@@ -3654,12 +3614,10 @@ body {
   .section1 {
     width: 100%;
     min-height: 1500px;
-    padding: 0px 20px;
   }
   .section1 ul {
     width: 100%;
     font-size: 0px;
-    padding: 0px 20px;
   }
   .section1 p {
     font-size: 1.0vw;
@@ -3749,12 +3707,10 @@ body {
   .section2 {
     width: 100%;
     height: 2540px;
-    padding: 0px 20px;
   }
   .section2 ul {
     width: 100%;
     font-size: 0px;
-    padding: 0px 20px;
   }
   .section2 p {
     font-size: 1.0vw;
@@ -3827,7 +3783,6 @@ body {
     width: 100%;
     height: 2080px;
     background-color: black;
-    padding: 0px 20px;
   }
   .section3 ul > li {
     width: 90%;
@@ -3926,13 +3881,12 @@ body {
     width: 100%;
     height: 120px;
     margin-top: 240px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 0px 0px 20px;
     position: relative;
     text-align: center;
   }
   .icon_list ul {
     font-size: 0px;
-    padding: 0 20px;
   }
   .icon_list ul > li {
     display: inline-block;
@@ -3960,13 +3914,11 @@ body {
   float: left;
   background-color: black;
   background-color: #2b2b2b;
-  padding: 0px 20px;
 }
 #footer .text1 {
   height: 70px;
   background-color: #333333;
   margin: 0 auto;
-  padding: 0 20px;
 }
 #footer .text1 ul {
   max-width: 1200px;
@@ -3998,7 +3950,6 @@ body {
   height: 285px;
   margin: 0px auto;
   position: relative;
-  padding: 0 20px;
 }
 #footer .text2 .logo-img {
   width: 220px;
