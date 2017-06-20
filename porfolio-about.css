@@ -209,7 +209,6 @@ article {
   padding-right: 0px;
 }
 section {
-  height: 3400px;
   width: 80%;
   margin: 0 auto;
   margin-top: 5px;
@@ -218,6 +217,9 @@ section > .content {
   width: 100%;
   text-align: center;
   outline: 1px red solid;
+}
+section > .content > img {
+  width: 100%;
 }
 #footer {
   width: 100%;
