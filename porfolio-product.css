@@ -28,7 +28,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: #eaeaea;
+  background-color: #fff;
 }
 .le {
   float: left;
@@ -209,16 +209,12 @@ article {
   padding-right: 0px;
 }
 section {
-  height: 1300px;
   width: 80%;
   margin: 0 auto;
-  margin-top: 5px;
-  outline: 1px red solid;
-  border: 1px red solid;
+  margin-top: 25px;
 }
 .content {
-  height: 1150px;
-  margin-top: 10px;
+  padding-top: 25px;
 }
 .title-banner {
   width: 95%;
@@ -226,9 +222,12 @@ section {
   outline: 1px #252525 solid;
   margin: 0% 2.5%;
 }
+.title-banner img {
+  width: 100%;
+}
 .product_menu {
   width: 100%;
-  height: 170px;
+  max-height: 170px;
 }
 .product_menu > ul {
   width: 100%;
@@ -239,33 +238,39 @@ section {
   width: 12.5%;
   height: 50px;
   display: inline-block;
-  line-height: 3;
   margin: 0 10px;
   outline: 2px red solid;
 }
+.product_menu p {
+  width: 100%;
+  height: 30px;
+}
+.product_menu p > a {
+  width: 100%;
+}
 .product_photo {
-  width: 100%;
-  height: 840px;
+  margin-top: 25px;
 }
-.product_photo > ul > li {
-  width: 100%;
-  height: 200px;
-  outline: 2px red solid;
-  margin: 10px 0px;
+.product_photo ul {
+  font-size: 0;
 }
-.product-list {
-  width: 100%;
-  height: 100%;
-}
-.product-list > a {
-  display: inline-block;
-  width: 19.6%;
-  height: 100%;
+.product_photo ul li {
+  margin: 0 auto;
   text-align: center;
+  outline: 1px #F00 solid;
+  width: 19.5%;
+  margin-left: 0.3%;
+  display: inline-block;
+  font-size: initial;
+  vertical-align: top;
 }
-.product-list > a > img {
+.product_photo ul li img {
   width: 100%;
-  height: 100%;
+}
+.product_photo ul li .text {
+  font-size: initial;
+  width: 100%;
+  height: 50px;
 }
 #footer {
   width: 100%;

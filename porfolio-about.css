@@ -214,9 +214,10 @@ section {
   margin-top: 5px;
 }
 section > .content {
-  width: 100%;
+  max-width: 1260px;
   text-align: center;
   outline: 1px red solid;
+  margin: 0 auto;
 }
 section > .content > img {
   width: 100%;
