@@ -53,7 +53,7 @@ $(function(){
 
 
 
-
+    // 상품 리스트 변동
         $('.product_menu li a').click(function(e){
             e.preventDefault();
 
@@ -62,23 +62,26 @@ $(function(){
             var item =  $(this).attr('id');
             console.log(item);
 
-            var idx= $(this).pa
+            // var idx= $(this).pa
 
             $('.product_photo li').each(function(i,e){
 
 
                 if(item == $(e).find('img').attr('alt')){
                   $(e).show()
-                } else{
-                  $(e).hide()
+
+                }else if(item == 'All'){
+                  $(e).show()
+
+                }else{
+                   $(e).hide()
                 }
 
 
             })
 
         })
-
-
+    
 
           // var menu = {
           //     "food":
