@@ -261,6 +261,7 @@ section {
 }
 .product_photo ul {
   font-size: 0;
+  min-height: 680px;
 }
 .product_photo ul li {
   margin: 0 auto;
