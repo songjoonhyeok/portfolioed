@@ -63,7 +63,7 @@ header {
   z-index: 10;
   display: block;
   border-radius: 50%;
-  background-image: url(img/btn.png);
+  background-image: url(../img/btn.png);
   background-repeat: no-repeat;
 }
 .slide li:first-child > div {
@@ -149,7 +149,7 @@ header {
   border-radius: 50%;
 }
 li.on a button {
-  background-image: url(img/btn-hover.png);
+  background-image: url(../img/btn-hover.png);
 }
 .won1 {
   width: 30px;
@@ -228,7 +228,7 @@ li.on a button {
 .nav > h1 {
   width: 230px;
   line-height: 72px;
-  background-image: url(img/logo.png);
+  background-image: url(../img/logo.png);
   background-repeat: no-repeat;
   font-size: 30px;
   background-position: center;
@@ -242,7 +242,7 @@ li.on a button {
   display: inline-block;
   position: absolute;
   text-indent: -9999em;
-  background-image: url(img/logo.png);
+  background-image: url(../img/logo.png);
   background-repeat: no-repeat;
   background-size: contents;
 }
@@ -377,7 +377,7 @@ section img {
 #article {
   width: 100%;
   height: 550px;
-  background-image: url(img/fr1.jpg);
+  background-image: url(../img/fr1.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -470,7 +470,7 @@ section img {
 #article1 {
   width: 100%;
   height: 650px;
-  background-image: url(img/fr2.jpg);
+  background-image: url(../img/fr2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

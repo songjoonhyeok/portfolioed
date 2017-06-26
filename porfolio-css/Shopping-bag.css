@@ -59,7 +59,7 @@ header {
 .nav > h1 {
   width: 230px;
   line-height: 72px;
-  background-image: url(img/logo.png);
+  background-image: url(../img/logo.png);
   background-repeat: no-repeat;
   font-size: 30px;
   background-position: center;
@@ -72,7 +72,7 @@ header {
   display: inline-block;
   position: absolute;
   text-indent: -9999em;
-  background-image: url(img/logo.png);
+  background-image: url(../img/logo.png);
   background-repeat: no-repeat;
   background-size: contents;
 }
@@ -177,7 +177,7 @@ header {
 section {
   width: 100%;
   margin-top: 100px;
-  height: 55px;
+  min-height: 800px;
 }
 .home {
   width: 100%;
@@ -228,31 +228,43 @@ article {
 }
 table {
   margin: 0 auto;
+  width: 100%;
 }
 thead th:nth-child(1) {
-  width: 10px;
-  outline: 1px black solid;
+  width: 216px;
   background-color: #eee;
-  border-collapse: collapse;
+  position: relative;
+  border-top: 1px #bbb solid;
+  border-bottom: 1px #bbb solid;
+}
+thead th:nth-child(1) input {
+  position: absolute;
+  top: 0;
+  right: 15px;
 }
 thead th:nth-child(2) {
   width: 900px;
-  border-top: 1px #bbb solid;
   border-bottom: 1px #bbb solid;
   background-color: #eee;
   border-collapse: collapse;
+  border-top: 1px #bbb solid;
 }
 thead th:nth-child(3) {
   width: 100px;
   border-top: 1px #bbb solid;
+  border-bottom: 1px #bbb solid;
   background-color: #eee;
   border-collapse: collapse;
 }
 thead th:nth-child(4) {
   width: 100px;
   border-top: 1px #bbb solid;
+  border-bottom: 1px #bbb solid;
   background-color: #eee;
   border-collapse: collapse;
+}
+tbody {
+  outline: 2px #dbdbdb solid;
 }
 tbody tr {
   border: 5px #dbdbdb solid;
@@ -260,4 +272,211 @@ tbody tr {
 }
 tbody div {
   padding: 10px 0;
+}
+#table-body {
+  text-align: center;
+}
+#table-body td {
+  border: 5px  solid;
+}
+.arcticle {
+  margin-top: 40px;
+  font-size: 0px;
+  text-align: center;
+}
+.arcticle a {
+  width: 250px;
+  height: 70px;
+  display: inline-block;
+  font-size: 1.0vw;
+  line-height: 3;
+  background-color: #ffd6d6;
+  border: 5px #ffa7a7 solid;
+  color: #ff4545;
+}
+.arcticle .left {
+  display: inline-block;
+  margin-right: 15px;
+}
+.arcticle .right {
+  display: inline-block;
+  margin-left: 15px;
+}
+.top-text {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  margin: 50px 0;
+  background-color: #ebebeb;
+}
+.top-text .left-banner {
+  max-width: 250px;
+  min-height: 100%;
+  position: relative;
+  left: 9%;
+}
+.top-text .left-banner .banner {
+  width: 250px;
+  height: 100%;
+  text-align: center;
+}
+.top-text .left-banner .banner p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.top-text .left-banner .banner p strong {
+  color: blue;
+}
+.top-text .left-banner .banner img {
+  position: absolute;
+  top: 50px;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+}
+.top-text .left-banner .banner span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.top-text .center-banner {
+  max-width: 250px;
+  min-height: 100%;
+  position: relative;
+  left: 18%;
+}
+.top-text .center-banner .banner {
+  width: 250px;
+  height: 100%;
+  text-align: center;
+}
+.top-text .center-banner .banner p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.top-text .center-banner .banner p strong {
+  color: blue;
+}
+.top-text .center-banner .banner img {
+  position: absolute;
+  top: 50px;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+}
+.top-text .center-banner .banner span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.top-text .right-banner {
+  max-width: 250px;
+  min-height: 100%;
+  position: relative;
+  left: 27%;
+}
+.top-text .right-banner .banner {
+  width: 250px;
+  height: 100%;
+  text-align: center;
+}
+.top-text .right-banner .banner p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.top-text .right-banner .banner p strong {
+  color: blue;
+}
+.top-text .right-banner .banner img {
+  position: absolute;
+  top: 50px;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+}
+.top-text .right-banner .banner span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+#footer {
+  width: 100%;
+  height: 418px;
+  float: left;
+  background-color: black;
+  background-color: #2b2b2b;
+  margin-top: 30px;
+}
+#footer .text1 {
+  height: 70px;
+  background-color: #333333;
+  margin: 0 auto;
+}
+#footer .text1 ul {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#footer .text1 li {
+  text-align: center;
+  width: 50%;
+  float: left;
+  margin: 0 auto;
+}
+#footer .text1 li a {
+  color: #fff;
+  line-height: 66px;
+  max-width: 600px;
+  display: inline-block;
+  font-size: 1.0vw;
+}
+#footer .text1 li span {
+  position: relative;
+  top: 22px;
+  font-size: 1.0vw;
+}
+#footer .text1 li p {
+  font-size: 1.0vw;
+}
+#footer .text2 {
+  max-width: 1200px;
+  height: 285px;
+  margin: 0px auto;
+  position: relative;
+}
+#footer .text2 .logo-img {
+  width: 220px;
+  height: 70px;
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+}
+#footer .text2 .logo-img img {
+  width: 100%;
+}
+#footer .text2 .text-text {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  top: 99px;
+}
+#footer .text2 .text-text span {
+  margin-left: 15px;
+  color: #fff;
+  font-size: 15px;
+}
+#footer .text2 .text-text .text-bottom {
+  color: #666666;
+  max-width: 1000px;
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
 }
