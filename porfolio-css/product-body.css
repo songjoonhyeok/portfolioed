@@ -197,15 +197,15 @@ article {
   text-align: center;
   line-height: 3;
   font-weight: 400;
-  border-bottom: 1px #d8bb4e solid;
+  border-bottom: 1px #e91e63 solid;
 }
 .home > ul > li > a {
   margin-right: 10px;
-  color: #d8bb4e;
+  color: #e91e63;
 }
 .home > ul > li > span {
   padding: 0 20px;
-  color: #d8bb4e;
+  color: #e91e63;
 }
 .home > ul > li > span:nth-child(3) {
   padding-right: 0px;
@@ -220,7 +220,6 @@ section {
 }
 .title-banner {
   max-width: 1200px;
-  outline: 1px #252525 solid;
   margin: 0 auto;
 }
 .title-banner img {
@@ -241,7 +240,6 @@ section {
   height: 50px;
   display: inline-block;
   margin: 0 10px;
-  outline: 1px red solid;
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
@@ -266,7 +264,6 @@ section {
 .product_photo ul li {
   margin: 0 auto;
   text-align: center;
-  outline: 1px #F00 solid;
   width: 19.5%;
   margin-left: 0.3%;
   display: inline-block;
@@ -280,6 +277,15 @@ section {
   font-size: initial;
   width: 100%;
   height: 50px;
+}
+.product_photo ul li .text a {
+  color: black;
+}
+.product_photo ul li .text span {
+  border-bottom: 1px rgba(50, 50, 50, 0.28) solid;
+  width: 80%;
+  height: 11px;
+  display: inline-block;
 }
 #footer {
   width: 100%;

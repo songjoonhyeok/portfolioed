@@ -210,7 +210,6 @@ section {
   padding-right: 0px;
 }
 article {
-  outline: 1px red solid;
   max-width: 1200px;
   min-height: 800px;
   margin: 0 auto;
@@ -218,12 +217,11 @@ article {
 .text {
   width: 100%;
   text-align: center;
-  background-color: #ef9898;
+  background-color: rgba(25, 24, 25, 0.05);
   height: 80px;
   margin-bottom: 10px;
 }
 .text h2 {
-  outline: 1px red solid;
   line-height: 3;
 }
 table {
@@ -280,7 +278,7 @@ tbody div {
   border: 5px  solid;
 }
 .arcticle {
-  margin-top: 40px;
+  margin-top: 100px;
   font-size: 0px;
   text-align: center;
 }
@@ -307,7 +305,6 @@ tbody div {
   height: 150px;
   text-align: center;
   margin: 50px 0;
-  background-color: #ebebeb;
 }
 .top-text .left-banner {
   max-width: 250px;
@@ -341,6 +338,7 @@ tbody div {
   bottom: 0;
   left: 0;
   width: 100%;
+  font-weight: bold;
 }
 .top-text .center-banner {
   max-width: 250px;
@@ -374,6 +372,7 @@ tbody div {
   bottom: 0;
   left: 0;
   width: 100%;
+  font-weight: bold;
 }
 .top-text .right-banner {
   max-width: 250px;
@@ -407,6 +406,7 @@ tbody div {
   bottom: 0;
   left: 0;
   width: 100%;
+  font-weight: bold;
 }
 #footer {
   width: 100%;
