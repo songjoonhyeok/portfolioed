@@ -4,7 +4,7 @@ $(function(){
    },function(){
      $('.nav>ul>li').children('div').stop().slideUp()
    })
-     
+
 
   //------------------------------------윈도우 리사이징
   // var events = function(){
