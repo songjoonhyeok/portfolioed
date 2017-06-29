@@ -1,0 +1,399 @@
+// out: commtnity-sub2.css, sourcemap: false, compress: false
+
+
+                      //초기화//
+                      h1,h2,h3,h4{margin:0px; padding:0px;}
+                      img{vertical-align:top;}
+                      a{text-decoration:none;}
+                      ul,li,dd,dl,dt,p{list-style:none; margin:0px; padding:0px;}
+                      body{margin:0px;padding:0px;}
+                      html,body{width:100%; height:100%; background-color: #fff;}
+
+                        //옵션//
+                      .le{float:left};
+                      .ri{float:right};
+                      .cl{clear:left};
+                      .cr{clear:right};
+                      /// 헤더 시작
+                    header{width:100%;overflow:hidden; background-color: #eaeaea;}
+
+                   //nav 시작
+                    .nav{width:100%; height:100px; background-color:rgba(0,0,0,0.8);
+                         position:fixed; z-index: 100; padding:0px 20px; margin-top:70px;}
+                    .nav>h1{width:230px; line-height:72px; background-image:url(../img/logo.png);
+                            background-repeat:no-repeat; font-size:30px; background-position: center;
+                            position:relative; top:30px; }
+                    .nav>h1>a{text-decoration:none; width:230px; display:inline-block; position:absolute; text-indent:-9999em;
+                              background-image: url(../img/logo.png); background-repeat:no-repeat; background-size:contents;
+                              }
+                    .nav>ul{position:absolute; right:61px; top:13px; text-transform:capitalize; line-height:72px; font-size:0px; text-align: center;}
+                    .nav>ul>li>a{text-decoration:none; color:#fff;}
+                    .nav>ul>li{display:inline-block; font-size:1.0vw; width:200px; color:#fff; font-weight:bold; position: relative;}
+
+                    .category .line{width:0%; height:2px; position:absolute; top:50px; left:0;}
+
+                    .category:hover .line{background-color:#ff8b8b; width:200px; height: 3px;}
+
+                    .category:hover .category-text{color:#ff8b8b;}
+
+                    //gnb 시작
+                    .gnb{width:100%; height:70px;
+                          padding:0px 20px; position:relative; top:5px;
+                          background-color:rgba(255,255,255,0.4)}
+                        .gnb>ul{float:right; position:absolute; right:61px; top:13px; text-align: center; text-transform:uppercase;
+                                font-weight:bold; font-size:0px;}
+                        .gnb>ul>li{display:inline-block; width:100px; font-size:1.0vw;}
+                        .gnb>ul>li>a{text-decoration:none; color:#ff8b8b;}
+
+                    //-------------------------슬라이드 메뉴-----------------------------
+                    .nav>ul>li>div{height:300px; padding:15px 0px; margin-top:15px;
+                                  background-color:rgba(255,89,124,0.3); display:none;}
+                    .nav-text>a{text-decoration:none; color:#fff;}
+                      .nav-text>span{width:auto; height: 2px; background-color:#ff8b8b; position: absolute; left:0; top:80px;}
+                      .nav-text{position:relative;
+                           span{width:0px; height:2px; position:absolute;
+                                   top:60px; left:0;}
+                                       }
+                        .nav-text:hover a{color:#ff8b8b;}
+                        .nav-text:hover span{width:100%;}
+
+              //section시작---------------------------------------------------------
+              section{width:100%; margin-top:100px; min-height:800px;}
+                    .home{width:100%; text-align:right; margin-bottom:25px;}
+                    .home>ul{font-size:0px; margin-right:50px;}
+                    .home>ul>li{width:400px; height:50px; display:inline-block; text-transform:capitalize;
+                                font-size:20px; text-align:center; line-height:3; font-weight:400;
+                                border-bottom:1px #595959 solid;}
+                    .home>ul>li>a{margin-right:10px; color:black;}
+                    .home>ul>li>span{padding:0 20px;}
+                    .home>ul>li>span:nth-child(3){padding-right:0px;}
+              //arcticle 시작-------------------------------------------------------------------
+              article{max-width:1280px; margin:0 auto;
+                    #section{max-width:80%; height:100%; display:inline-block;
+                        .top-banner{width:1000px; height:430px; margin:0 auto; text-align:center;
+                                    a{width:100%; height:300px; display: inline-block; margin-bottom:20px;
+                                    img{width:100%;}
+                                    }
+                                    p{margin:0 auto; width:700px; }
+                                    }
+                                    }
+                        .text{width:1000px; margin-bottom:25px; font-size:0px;
+                            .box-img{ display:inline-block; width:40%; margin-top:25px;
+                               li{margin:0 auto; height:245px; width:240px;
+                                  img{width:100%; height:100%; margin:0 auto; }
+                               }
+                            }
+                            .left-text{width:60%; height:100%; text-align:center; display:inline-block; font-size:15px; margin-top:25px; margin-bottom:100px;
+                                      p{margin:15px 0;}
+                              }
+                            }
+                        .product{height:240px; border-bottom:1px #595959 solid; position:relative; overflow-x:hidden;
+                                ul{ font-size:0px; width:5800px; position:relative; margin-top:5px;
+                                  li{display:inline-block; width:200px; font-size:15px; height:220px; margin:0% 0.46%; border:1px #595959 solid;
+                                     text-align:center; position:relative;
+                                    >a{display:inline-block; position:absolute;
+                                        background-image: url(../img/product-14-1.jpg);
+                                        width:100%; height:220px; top:0; left:0; background-repeat:no-repeat; background-size:cover;background-position:center;}
+                                      a{color:#fff;}
+                                       span{position:absolute; left:0; bottom:0; width:100%; height:60px; background-color:rgba(0,0,0,0.8); color:#fff;}
+                                        }
+                                  .img1{
+                                    >a{background-image: url(../img/product-40-1.jpg);}
+                                    span{
+                                         strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                    }
+                                  }
+                                  .img2{
+                                    >a{background-image: url(../img/product-47-1.jpg);}
+                                  }
+                                  .img3{
+                                    >a{background-image: url(../img/product-48-1.jpg);}
+                                  }
+                                  .img4{
+                                    >a{background-image: url(../img/product-23-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img5{
+                                    >a{background-image: url(../img/product-46-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img6{
+                                    >a{background-image: url(../img/product-45-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img7{
+                                    >a{background-image: url(../img/product-44-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img8{
+                                    >a{background-image: url(../img/product-43-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img9{
+                                    >a{background-image: url(../img/product-42-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img10{
+                                    >a{background-image: url(../img/product-33-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img11{
+                                    >a{background-image: url(../img/product-40-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img12{
+                                    >a{background-image: url(../img/product-31-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img13{
+                                    >a{background-image: url(../img/product-21-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img14{
+                                    >a{background-image: url(../img/product-38-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img15{
+                                    >a{background-image: url(../img/product-37-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img16{
+                                    >a{background-image: url(../img/product-30-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img17{
+                                    >a{background-image: url(../img/product-35-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img18{
+                                    >a{background-image: url(../img/product-34-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                  .img19{
+                                    >a{background-image: url(../img/product-33-1.jpg);}
+                                      span{
+                                           strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                      }
+                                  }
+                                      }
+                                    }
+                                }
+                            .btn{position:relative;
+                                .next{position:absolute; top:80px; right:0; z-index:1; width:40px; height:40px;
+                                    >img{width:100%;}
+                                      }
+                                .prev{position:absolute; top:80px; left:0; z-index:1; width:40px; height:40px;
+                                    >img{width:100%;}
+                                      }
+                            }
+                            .sub-nav{max-width:240px; height:100%;
+                                  ul{ text-align:center; line-height:5;
+                                    p{width:240px;height:120px;background-color:rgb(255,214,214); color:rgb(255,69,69); border:3px rgb(255,167,167) solid; line-height:8;}
+
+                                    li{ height:70px; width:240px; background-color:rgb(255,214,214); border:3px rgb(255,167,167) solid;
+                                        a{ color:rgb(255,69,69);}
+                                      }
+                                      }
+                                    }
+                        //product1 시작
+                        .product1{height:240px; border-bottom:1px #595959 solid; margin-top:40px;
+                                ul{ font-size:0px;text-align:center; position:relative;
+                                  li{display:inline-block; width:18.8%; font-size:15px; height:220px; margin:0% 0.5%; border:1px #595959 solid;
+                                     text-align:center; position:absolute;
+                                    >a{display:inline-block; position:absolute;
+                                        background-image: url(../img/product-1-1.jpg);
+                                        width:100%; height:220px; top:0; left:0; background-repeat:no-repeat; background-size:cover;background-position:center;}
+                                          a{color:#fff;}
+                                       span{position:absolute; left:0; bottom:0; width:100%; height:60px; background-color:rgba(0,0,0,0.8); color:#fff;
+                                            strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                       }
+                                        }
+                                    li:nth-child(1){left:0; top:0;}
+                                    li:nth-child(2){left:20%; top:0;}
+                                    li:nth-child(3){left:40%; top:0;}
+                                    li:nth-child(4){left:60%; top:0;}
+                                    li:nth-child(5){left:80%; top:0;}
+
+                                  .img1{
+                                    >a{background-image: url(../img/product-19-1.jpg);}
+                                    span{
+                                         strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                    }
+                                  }
+                                  .img2{
+                                    >a{background-image: url(../img/product-4-1.jpg);}
+                                    span{
+                                         strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                    }
+                                  }
+                                  .img3{
+                                    >a{background-image: url(../img/product-3-1.jpg);}
+                                    span{
+                                         strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                    }
+                                  }
+                                  .img4{
+                                    >a{background-image: url(../img/product-2-1.jpg);}
+                                    span{
+                                         strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                    }
+                                  }
+
+                                  }
+                                  }
+                        //text2----------시작
+                        .text2{width:1000px; margin-bottom:25px; font-size:0px;
+                            .box-img{ display:inline-block; width:40%; margin-top:25px;
+                               li{margin:0 auto; height:245px; width:240px;
+                                  img{width:100%; height:100%; margin:0 auto; }
+                               }
+                            }
+                            .left-text2{width:60%; height:100%; text-align:center; display:inline-block; font-size:15px; margin-top:25px; margin-bottom:150px;
+                                      p{margin:15px 0;}
+                              }
+                            }
+                        //prodyct2 시작
+                        .product2{height:240px; border-bottom:1px #595959 solid; margin-top:40px;
+                                ul{ font-size:0px;text-align:center; position:relative;
+                                  li{display:inline-block; width:18.8%; font-size:15px; height:220px; margin:0% 0.5%; border:1px #595959 solid;
+                                     text-align:center; position:absolute;
+                                    >a{display:inline-block; position:absolute;
+                                        background-image: url(../img/product-19-1.jpg);
+                                        width:100%; height:220px; top:0; left:0; background-repeat:no-repeat; background-size:cover;background-position:center;}
+                                          a{color:#fff;}
+                                       span{position:absolute; left:0; bottom:0; width:100%; height:60px; background-color:rgba(0,0,0,0.8); color:#fff;
+                                            strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                       }
+                                        }
+                                    li:nth-child(1){left:0; top:0;}
+                                  }
+                                  }
+                          //product3 시작----
+                          .product3{height:240px; border-bottom:1px #595959 solid; margin-top:40px;
+                                  ul{ font-size:0px;text-align:center; position:relative;
+                                    li{display:inline-block; width:18.8%; font-size:15px; height:220px; margin:0% 0.5%; border:1px #595959 solid;
+                                       text-align:center; position:absolute;
+                                      >a{display:inline-block; position:absolute;
+                                          background-image: url(../img/product-6-1.jpg);
+                                          width:100%; height:220px; top:0; left:0; background-repeat:no-repeat; background-size:cover;background-position:center;}
+                                            a{color:#fff;}
+                                         span{position:absolute; left:0; bottom:0; width:100%; height:60px; background-color:rgba(0,0,0,0.8); color:#fff;
+                                              strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                         }
+                                          }
+                                      li:nth-child(1){left:0; top:0;}
+                                      li:nth-child(2){left:20%; top:0;}
+                                      .img1{
+                                        >a{background-image: url(../img/product-20-1.jpg);}
+                                        span{
+                                             strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                        }
+                                      }
+                                    }
+                                    }
+                          //product4
+                          .product4{height:240px; border-bottom:1px #595959 solid; margin-top:40px;
+                                  ul{ font-size:0px;text-align:center; position:relative;
+                                    li{display:inline-block; width:18.8%; font-size:15px; height:220px; margin:0% 0.5%; border:1px #595959 solid;
+                                       text-align:center; position:absolute;
+                                      >a{display:inline-block; position:absolute;
+                                          background-image: url(../img/product-17-1.jpg);
+                                          width:100%; height:220px; top:0; left:0; background-repeat:no-repeat; background-size:cover;background-position:center;}
+                                            a{color:#fff;}
+                                         span{position:absolute; left:0; bottom:0; width:100%; height:60px; background-color:rgba(0,0,0,0.8); color:#fff;
+                                              strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                         }
+                                          }
+                                      li:nth-child(1){left:0; top:0;}
+                                      li:nth-child(2){left:20%; top:0;}
+                                      .img1{
+                                        >a{background-image: url(../img/product-12-1.jpg);}
+                                        span{
+                                             strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                        }
+                                      }
+                                    }
+                                    }
+                              //product5
+                              .product5{height:240px; border-bottom:1px #595959 solid; margin-top:40px;
+                                      ul{ font-size:0px;text-align:center; position:relative;
+                                        li{display:inline-block; width:18.8%; font-size:15px; height:220px; margin:0% 0.5%; border:1px #595959 solid;
+                                           text-align:center; position:absolute;
+                                          >a{display:inline-block; position:absolute;
+                                              background-image: url(../img/product-18-1.jpg);
+                                              width:100%; height:220px; top:0; left:0; background-repeat:no-repeat; background-size:cover;background-position:center;}
+                                                a{color:#fff;}
+                                             span{position:absolute; left:0; bottom:0; width:100%; height:60px; background-color:rgba(0,0,0,0.8); color:#fff;
+                                                  strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                             }
+                                              }
+                                          li:nth-child(1){left:0; top:0;}
+                                          li:nth-child(2){left:20%; top:0;}
+                                          li:nth-child(3){left:40%; top:0;}
+                                          .img1{
+                                            >a{background-image: url(../img/product-13-1.jpg);}
+                                            span{
+                                                 strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                            }
+                                          }
+                                          .img2{
+                                            >a{background-image: url(../img/product-4-1.jpg);}
+                                            span{
+                                                 strong{position:absolute; bottom:0; text-align:center; width:100%; left:0;}
+                                            }
+                                          }
+                                        }
+                                        }
+                    //footer 시작-----------------------------------------------------------------------
+                   #footer{width:100%; height:418px; float:left;  background-color:black;
+                           background-color:#2b2b2b; margin-top:30px;
+                        .text1{height:70px; background-color:#333333; margin:0 auto;
+                         ul{max-width:1200px; margin:0 auto;}
+                         li{text-align:center; width:50%; float:left; margin:0 auto;
+                           a{color:#fff;line-height:66px; max-width:600px; display:inline-block; font-size:1.0vw;}
+                           span{position:relative; top:22px; font-size:1.0vw;}
+                           p{font-size:1.0vw;}
+                                         }
+                                       }
+                         .text2{max-width:1200px;height:285px; margin:0px auto; position:relative;
+                         .logo-img{ width:220px; height:70px; margin:0 auto; position:relative; top:70px;
+                                    img{width:100%;}
+                                     }
+                         .text-text{ max-width:1000px; margin:0 auto; position:relative; top:99px;
+                                           span{margin-left:15px; color:#fff; font-size:15px;}
+
+                          .text-bottom{ color:#666666; max-width:1000px; margin:20px auto; text-align:center; position:relative; }
+
+                                              }
+                                            }
+                                        }
