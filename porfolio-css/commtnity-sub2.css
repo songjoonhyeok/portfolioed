@@ -246,6 +246,7 @@ article .text {
 article .text .box-img {
   display: inline-block;
   width: 40%;
+  margin-top: 25px;
 }
 article .text .box-img li {
   margin: 0 auto;
@@ -263,6 +264,8 @@ article .text .left-text {
   text-align: center;
   display: inline-block;
   font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 100px;
 }
 article .text .left-text p {
   margin: 15px 0;
@@ -270,23 +273,29 @@ article .text .left-text p {
 article .product {
   height: 240px;
   border-bottom: 1px #595959 solid;
+  position: relative;
+  overflow-x: hidden;
 }
 article .product ul {
   font-size: 0px;
+  width: 5800px;
+  position: relative;
+  margin-top: 5px;
 }
 article .product ul li {
   display: inline-block;
-  width: 18.8%;
+  width: 200px;
   font-size: 15px;
   height: 220px;
-  margin: 0% 0.5%;
+  margin: 0% 0.46%;
+  border: 1px #595959 solid;
   text-align: center;
   position: relative;
 }
 article .product ul li > a {
   display: inline-block;
   position: absolute;
-  background-image: url(../img/product-1-1.jpg);
+  background-image: url(../img/product-14-1.jpg);
   width: 100%;
   height: 220px;
   top: 0;
@@ -308,7 +317,7 @@ article .product ul li span {
   color: #fff;
 }
 article .product ul .img1 > a {
-  background-image: url(../img/product-2-1.jpg);
+  background-image: url(../img/product-40-1.jpg);
 }
 article .product ul .img1 span strong {
   position: absolute;
@@ -318,13 +327,13 @@ article .product ul .img1 span strong {
   left: 0;
 }
 article .product ul .img2 > a {
-  background-image: url(../img/product-3-1.jpg);
+  background-image: url(../img/product-47-1.jpg);
 }
 article .product ul .img3 > a {
-  background-image: url(../img/product-4-1.jpg);
+  background-image: url(../img/product-48-1.jpg);
 }
 article .product ul .img4 > a {
-  background-image: url(../img/product-19-1.jpg);
+  background-image: url(../img/product-23-1.jpg);
 }
 article .product ul .img4 span strong {
   position: absolute;
@@ -333,414 +342,190 @@ article .product ul .img4 span strong {
   width: 100%;
   left: 0;
 }
-article .product ul li:first-child {
-  margin-left: 1%;
+article .product ul .img5 > a {
+  background-image: url(../img/product-46-1.jpg);
 }
-article .text1 {
-  width: 1000px;
-  margin-bottom: 25px;
-  font-size: 0px;
-  margin-top: 30px;
-}
-article .text1 .box-img {
-  display: inline-block;
-  width: 40%;
-}
-article .text1 .box-img li {
-  margin: 0 auto;
-  height: 245px;
-  width: 240px;
-}
-article .text1 .box-img li img {
+article .product ul .img5 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
   width: 100%;
-  height: 100%;
-  margin: 0 auto;
+  left: 0;
 }
-article .text1 .left-text {
-  width: 60%;
-  height: 100%;
+article .product ul .img6 > a {
+  background-image: url(../img/product-45-1.jpg);
+}
+article .product ul .img6 span strong {
+  position: absolute;
+  bottom: 0;
   text-align: center;
-  display: inline-block;
-  font-size: 15px;
+  width: 100%;
+  left: 0;
 }
-article .text1 .left-text p {
-  margin: 15px 0;
+article .product ul .img7 > a {
+  background-image: url(../img/product-44-1.jpg);
 }
-article .product2 {
-  height: 240px;
-  border-bottom: 1px #595959 solid;
-  margin-top: 40px;
-}
-article .product2 ul {
-  font-size: 0px;
+article .product ul .img7 span strong {
+  position: absolute;
+  bottom: 0;
   text-align: center;
+  width: 100%;
+  left: 0;
+}
+article .product ul .img8 > a {
+  background-image: url(../img/product-43-1.jpg);
+}
+article .product ul .img8 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+article .product ul .img9 > a {
+  background-image: url(../img/product-42-1.jpg);
+}
+article .product ul .img9 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+article .product ul .img10 > a {
+  background-image: url(../img/product-33-1.jpg);
+}
+article .product ul .img10 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+article .product ul .img11 > a {
+  background-image: url(../img/product-40-1.jpg);
+}
+article .product ul .img11 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+article .product ul .img12 > a {
+  background-image: url(../img/product-31-1.jpg);
+}
+article .product ul .img12 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+article .product ul .img13 > a {
+  background-image: url(../img/product-21-1.jpg);
+}
+article .product ul .img13 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+article .product ul .img14 > a {
+  background-image: url(../img/product-38-1.jpg);
+}
+article .product ul .img14 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+article .product ul .img15 > a {
+  background-image: url(../img/product-37-1.jpg);
+}
+article .product ul .img15 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+article .product ul .img16 > a {
+  background-image: url(../img/product-30-1.jpg);
+}
+article .product ul .img16 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+article .product ul .img17 > a {
+  background-image: url(../img/product-35-1.jpg);
+}
+article .product ul .img17 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+article .product ul .img18 > a {
+  background-image: url(../img/product-34-1.jpg);
+}
+article .product ul .img18 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+article .product ul .img19 > a {
+  background-image: url(../img/product-33-1.jpg);
+}
+article .product ul .img19 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.btn {
   position: relative;
 }
-article .product2 ul li {
-  display: inline-block;
-  width: 18.8%;
-  font-size: 15px;
-  height: 220px;
-  margin: 0% 0.5%;
-  border: 1px #595959 solid;
-  text-align: center;
+.btn .next {
   position: absolute;
+  top: 80px;
+  right: 0;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
 }
-article .product2 ul li > a {
-  display: inline-block;
-  position: absolute;
-  background-image: url(../img/product-24-1.jpg);
+.btn .next > img {
   width: 100%;
-  height: 220px;
-  top: 0;
-  left: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
-article .product2 ul li a {
-  color: #fff;
-}
-article .product2 ul li span {
+.btn .prev {
   position: absolute;
+  top: 80px;
   left: 0;
-  bottom: 0;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+}
+.btn .prev > img {
   width: 100%;
-  height: 81px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
 }
-article .product2 ul li span strong {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  left: 0;
-}
-article .product2 ul li:nth-child(1) {
-  left: 0;
-  top: 0;
-}
-article .product2 ul li:nth-child(2) {
-  left: 20%;
-  top: 0;
-}
-article .product2 ul .img1 > a {
-  background-image: url(../img/product-22-1.jpg);
-}
-article .product2 ul .img1 span strong {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  left: 0;
-}
-article .text2 {
-  width: 1000px;
-  margin-bottom: 25px;
-  font-size: 0px;
-  margin-top: 30px;
-}
-article .text2 .box-img {
-  display: inline-block;
-  width: 40%;
-}
-article .text2 .box-img li {
-  margin: 0 auto;
-  height: 245px;
-  width: 240px;
-}
-article .text2 .box-img li img {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-}
-article .text2 .left-text {
-  width: 60%;
-  height: 100%;
-  text-align: center;
-  display: inline-block;
-  font-size: 15px;
-}
-article .text2 .left-text p {
-  margin: 15px 0;
-}
-article .product3 {
-  height: 240px;
-  border-bottom: 1px #595959 solid;
-  margin-top: 40px;
-}
-article .product3 ul {
-  font-size: 0px;
-  text-align: center;
-  position: relative;
-}
-article .product3 ul li {
-  display: inline-block;
-  width: 18.8%;
-  font-size: 15px;
-  height: 220px;
-  margin: 0% 0.5%;
-  border: 1px #595959 solid;
-  text-align: center;
-  position: absolute;
-}
-article .product3 ul li > a {
-  display: inline-block;
-  position: absolute;
-  background-image: url(../img/product-25-1.jpg);
-  width: 100%;
-  height: 220px;
-  top: 0;
-  left: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-article .product3 ul li a {
-  color: #fff;
-}
-article .product3 ul li span {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 81px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-}
-article .product3 ul li span strong {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  left: 0;
-}
-article .product3 ul li:nth-child(1) {
-  left: 0;
-  top: 0;
-}
-article .product3 ul li:nth-child(2) {
-  left: 20%;
-  top: 0;
-}
-article .product3 ul .img1 > a {
-  background-image: url(../img/product-26-1.jpg);
-}
-article .product3 ul .img1 span strong {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  left: 0;
-}
-article .text3 {
-  width: 1000px;
-  margin-bottom: 25px;
-  font-size: 0px;
-  margin-top: 30px;
-}
-article .text3 .box-img {
-  display: inline-block;
-  width: 40%;
-}
-article .text3 .box-img li {
-  margin: 0 auto;
-  height: 245px;
-  width: 240px;
-}
-article .text3 .box-img li img {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-}
-article .text3 .left-text {
-  width: 60%;
-  height: 100%;
-  text-align: center;
-  display: inline-block;
-  font-size: 15px;
-}
-article .text3 .left-text p {
-  margin: 15px 0;
-}
-article .product4 {
-  height: 240px;
-  border-bottom: 1px #595959 solid;
-  margin-top: 40px;
-}
-article .product4 ul {
-  font-size: 0px;
-  text-align: center;
-  position: relative;
-}
-article .product4 ul li {
-  display: inline-block;
-  width: 18.8%;
-  font-size: 15px;
-  height: 220px;
-  margin: 0% 0.5%;
-  border: 1px #595959 solid;
-  text-align: center;
-  position: absolute;
-}
-article .product4 ul li > a {
-  display: inline-block;
-  position: absolute;
-  background-image: url(../img/product-27-1.jpg);
-  width: 100%;
-  height: 220px;
-  top: 0;
-  left: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-article .product4 ul li a {
-  color: #fff;
-}
-article .product4 ul li span {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-}
-article .product4 ul li span strong {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  left: 0;
-}
-article .product4 ul li:nth-child(1) {
-  left: 0;
-  top: 0;
-}
-article .product4 ul li:nth-child(2) {
-  left: 20%;
-  top: 0;
-}
-article .product4 ul li:nth-child(3) {
-  left: 40%;
-  top: 0;
-}
-article .product4 ul .img1 > a {
-  background-image: url(../img/product-25-1.jpg);
-}
-article .product4 ul .img1 span strong {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  left: 0;
-}
-article .product4 ul .img2 > a {
-  background-image: url(../img/product-26-1.jpg);
-}
-article .product4 ul .img2 span strong {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  left: 0;
-}
-article .text4 {
-  width: 1000px;
-  margin-bottom: 25px;
-  font-size: 0px;
-  margin-top: 30px;
-}
-article .text4 .box-img {
-  display: inline-block;
-  width: 40%;
-}
-article .text4 .box-img li {
-  margin: 0 auto;
-  height: 245px;
-  width: 240px;
-}
-article .text4 .box-img li img {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-}
-article .text4 .left-text {
-  width: 60%;
-  height: 100%;
-  text-align: center;
-  display: inline-block;
-  font-size: 15px;
-}
-article .text4 .left-text p {
-  margin: 15px 0;
-}
-article .product5 {
-  height: 240px;
-  border-bottom: 1px #595959 solid;
-  margin-top: 40px;
-}
-article .product5 ul {
-  font-size: 0px;
-  text-align: center;
-  position: relative;
-}
-article .product5 ul li {
-  display: inline-block;
-  width: 18.8%;
-  font-size: 15px;
-  height: 220px;
-  margin: 0% 0.5%;
-  border: 1px #595959 solid;
-  text-align: center;
-  position: absolute;
-}
-article .product5 ul li > a {
-  display: inline-block;
-  position: absolute;
-  background-image: url(../img/product-7-1.jpg);
-  width: 100%;
-  height: 220px;
-  top: 0;
-  left: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-article .product5 ul li a {
-  color: #fff;
-}
-article .product5 ul li span {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 81px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-}
-article .product5 ul li span strong {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  left: 0;
-}
-article .product5 ul li:nth-child(1) {
-  left: 0;
-  top: 0;
-}
-article .sub-nav {
+.sub-nav {
   max-width: 240px;
   height: 100%;
 }
-article .sub-nav ul {
+.sub-nav ul {
   text-align: center;
   line-height: 5;
 }
-article .sub-nav ul p {
+.sub-nav ul p {
   width: 240px;
   height: 120px;
   background-color: #ffd6d6;
@@ -748,14 +533,433 @@ article .sub-nav ul p {
   border: 3px #ffa7a7 solid;
   line-height: 8;
 }
-article .sub-nav ul li {
+.sub-nav ul li {
   height: 70px;
   width: 240px;
   background-color: #ffd6d6;
   border: 3px #ffa7a7 solid;
 }
-article .sub-nav ul li a {
+.sub-nav ul li a {
   color: #ff4545;
+}
+.product1 {
+  height: 240px;
+  border-bottom: 1px #595959 solid;
+  margin-top: 40px;
+}
+.product1 ul {
+  font-size: 0px;
+  text-align: center;
+  position: relative;
+}
+.product1 ul li {
+  display: inline-block;
+  width: 18.8%;
+  font-size: 15px;
+  height: 220px;
+  margin: 0% 0.5%;
+  border: 1px #595959 solid;
+  text-align: center;
+  position: absolute;
+}
+.product1 ul li > a {
+  display: inline-block;
+  position: absolute;
+  background-image: url(../img/product-1-1.jpg);
+  width: 100%;
+  height: 220px;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product1 ul li a {
+  color: #fff;
+}
+.product1 ul li span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+.product1 ul li span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.product1 ul li:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+.product1 ul li:nth-child(2) {
+  left: 20%;
+  top: 0;
+}
+.product1 ul li:nth-child(3) {
+  left: 40%;
+  top: 0;
+}
+.product1 ul li:nth-child(4) {
+  left: 60%;
+  top: 0;
+}
+.product1 ul li:nth-child(5) {
+  left: 80%;
+  top: 0;
+}
+.product1 ul .img1 > a {
+  background-image: url(../img/product-19-1.jpg);
+}
+.product1 ul .img1 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.product1 ul .img2 > a {
+  background-image: url(../img/product-4-1.jpg);
+}
+.product1 ul .img2 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.product1 ul .img3 > a {
+  background-image: url(../img/product-3-1.jpg);
+}
+.product1 ul .img3 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.product1 ul .img4 > a {
+  background-image: url(../img/product-2-1.jpg);
+}
+.product1 ul .img4 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.text2 {
+  width: 1000px;
+  margin-bottom: 25px;
+  font-size: 0px;
+}
+.text2 .box-img {
+  display: inline-block;
+  width: 40%;
+  margin-top: 25px;
+}
+.text2 .box-img li {
+  margin: 0 auto;
+  height: 245px;
+  width: 240px;
+}
+.text2 .box-img li img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.text2 .left-text2 {
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 150px;
+}
+.text2 .left-text2 p {
+  margin: 15px 0;
+}
+.product2 {
+  height: 240px;
+  border-bottom: 1px #595959 solid;
+  margin-top: 40px;
+}
+.product2 ul {
+  font-size: 0px;
+  text-align: center;
+  position: relative;
+}
+.product2 ul li {
+  display: inline-block;
+  width: 18.8%;
+  font-size: 15px;
+  height: 220px;
+  margin: 0% 0.5%;
+  border: 1px #595959 solid;
+  text-align: center;
+  position: absolute;
+}
+.product2 ul li > a {
+  display: inline-block;
+  position: absolute;
+  background-image: url(../img/product-19-1.jpg);
+  width: 100%;
+  height: 220px;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product2 ul li a {
+  color: #fff;
+}
+.product2 ul li span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+.product2 ul li span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.product2 ul li:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+.product3 {
+  height: 240px;
+  border-bottom: 1px #595959 solid;
+  margin-top: 40px;
+}
+.product3 ul {
+  font-size: 0px;
+  text-align: center;
+  position: relative;
+}
+.product3 ul li {
+  display: inline-block;
+  width: 18.8%;
+  font-size: 15px;
+  height: 220px;
+  margin: 0% 0.5%;
+  border: 1px #595959 solid;
+  text-align: center;
+  position: absolute;
+}
+.product3 ul li > a {
+  display: inline-block;
+  position: absolute;
+  background-image: url(../img/product-6-1.jpg);
+  width: 100%;
+  height: 220px;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product3 ul li a {
+  color: #fff;
+}
+.product3 ul li span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+.product3 ul li span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.product3 ul li:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+.product3 ul li:nth-child(2) {
+  left: 20%;
+  top: 0;
+}
+.product3 ul .img1 > a {
+  background-image: url(../img/product-20-1.jpg);
+}
+.product3 ul .img1 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.product4 {
+  height: 240px;
+  border-bottom: 1px #595959 solid;
+  margin-top: 40px;
+}
+.product4 ul {
+  font-size: 0px;
+  text-align: center;
+  position: relative;
+}
+.product4 ul li {
+  display: inline-block;
+  width: 18.8%;
+  font-size: 15px;
+  height: 220px;
+  margin: 0% 0.5%;
+  border: 1px #595959 solid;
+  text-align: center;
+  position: absolute;
+}
+.product4 ul li > a {
+  display: inline-block;
+  position: absolute;
+  background-image: url(../img/product-17-1.jpg);
+  width: 100%;
+  height: 220px;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product4 ul li a {
+  color: #fff;
+}
+.product4 ul li span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+.product4 ul li span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.product4 ul li:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+.product4 ul li:nth-child(2) {
+  left: 20%;
+  top: 0;
+}
+.product4 ul .img1 > a {
+  background-image: url(../img/product-12-1.jpg);
+}
+.product4 ul .img1 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.product5 {
+  height: 240px;
+  border-bottom: 1px #595959 solid;
+  margin-top: 40px;
+}
+.product5 ul {
+  font-size: 0px;
+  text-align: center;
+  position: relative;
+}
+.product5 ul li {
+  display: inline-block;
+  width: 18.8%;
+  font-size: 15px;
+  height: 220px;
+  margin: 0% 0.5%;
+  border: 1px #595959 solid;
+  text-align: center;
+  position: absolute;
+}
+.product5 ul li > a {
+  display: inline-block;
+  position: absolute;
+  background-image: url(../img/product-18-1.jpg);
+  width: 100%;
+  height: 220px;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.product5 ul li a {
+  color: #fff;
+}
+.product5 ul li span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+.product5 ul li span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.product5 ul li:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+.product5 ul li:nth-child(2) {
+  left: 20%;
+  top: 0;
+}
+.product5 ul li:nth-child(3) {
+  left: 40%;
+  top: 0;
+}
+.product5 ul .img1 > a {
+  background-image: url(../img/product-13-1.jpg);
+}
+.product5 ul .img1 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.product5 ul .img2 > a {
+  background-image: url(../img/product-4-1.jpg);
+}
+.product5 ul .img2 span strong {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  left: 0;
 }
 #footer {
   width: 100%;

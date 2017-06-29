@@ -4,7 +4,7 @@ $(function(){
    },function(){
      $('.nav>ul>li').children('div').stop().slideUp()
    })
-     
+
 
   //------------------------------------윈도우 리사이징
   // var events = function(){
@@ -116,7 +116,7 @@ $(function(){
   $('.slidebanner li').eq(idx).addClass('on').siblings().removeClass('on')
 
          }
-      // console.log(idx);
+      console.log(idx);
     })
     $('.slide li').mouseenter(function(){
                clearInterval(tt);
