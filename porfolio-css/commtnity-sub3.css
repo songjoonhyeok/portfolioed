@@ -240,63 +240,77 @@ article #section .top-banner p {
   margin: 0 auto;
   width: 700px;
 }
-article #section .banner-btn {
-  width: 100%;
-  outline: 1px red solid;
+article #section .product {
+  width: 1000px;
+  height: 800px;
+  margin-top: 15px;
 }
-article #section .banner-btn > ul {
-  width: 800px;
+article #section .product > .sun {
+  width: 500px;
   height: 100px;
+  outline: 1px red solid;
   margin: 0 auto;
-  font-size: 0px;
+  font-size: 30px;
+  line-height: 1.5;
+  text-transform: capitalize;
 }
-article #section .banner-btn > ul > li {
-  width: 260px;
-  height: 94%;
-  text-align: center;
-  display: inline-block;
-  background-color: #97dcfa;
-  font-size: 0px;
+article #section .product > ul {
+  width: 100%;
+  margin: 0 auto;
+  outline: 1px black solid;
+  font-size: 15px;
+}
+article #section .product > ul > li {
+  width: 333px;
+  height: 300px;
+  outline: 1px red solid;
   position: relative;
-  border: 3px #50c2f4 solid;
+  font-size: 0px;
 }
-article #section .banner-btn > ul > li > a {
-  width: 67px;
-  height: 50px;
-  border: 1px rgba(9, 61, 142, 0.5) solid;
+article #section .product > ul > li > a {
+  width: 100%;
+  height: 100%;
+  outline: 1px blue solid;
   display: inline-block;
   font-size: 15px;
+}
+article #section .product > ul > li > .text {
+  width: 100%;
+  height: 80px;
   position: absolute;
-  top: 22%;
-  left: 8%;
-  border-radius: 50%;
+  bottom: 0;
+  left: 0;
+  outline: 1px blue solid;
+  background-color: rgba(32, 59, 255, 0.7);
 }
-article #section .banner-btn > ul > li > .text0 {
-  outline: 1px red solid;
-  width: 100px;
-  left: 40%;
-  font-size: 14px;
-  border: 0px;
-  line-height: 1;
-  color: #078ec9;
+article #section .product > ul > li > .text > span {
+  line-height: 2;
+  color: #fff;
 }
-article #section .banner-btn > ul > li .img0 {
+article #section .product > ul > li > .text > span > strong {
+  position: absolute;
+  bottom: 17px;
+  left: 35%;
+  font-size: 18px;
+  color: #fff;
+}
+article #section .product > ul > li #background1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../img/product-26-1.jpg);
+  background-image: url(../img/product-27-2.jpg);
 }
-article #section .banner-btn > ul > li .img1 {
+article #section .product > ul > li #background2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../img/product-27-1.jpg);
+  background-image: url(../img/product-28-2.jpg);
 }
-article #section .banner-btn > ul > li .img2 {
+article #section .product > ul > li #background3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(../img/product-28-1.jpg);
+  background-image: url(../img/product-26-2.jpg);
 }
 .btn {
   position: relative;

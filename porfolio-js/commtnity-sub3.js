@@ -23,7 +23,7 @@ $(function(){
           })
 
    // banner-btn 하버
-   
+
       $('.banner-btn li:eq(0)').hover(function(){
          $('.banner-btn li:eq(0)').css({'background-color':'#50c2f4',
                                          'border':'3px #fff solid'}).find('a').css('color','#fff')
@@ -31,14 +31,14 @@ $(function(){
           $('.banner-btn li:eq(0)').css({'background-color':'',
                                           'border':''}).find('a').css('color','')
       })
-
-      $('.banner-btn li:eq(1)').hover(function(){
-         $('.banner-btn li:eq(1)').css({'background-color':'#50c2f4',
-                                         'border':'3px #fff solid'}).find('a').css('color','#fff')
-      },function(){
-          $('.banner-btn li:eq(1)').css({'background-color':'',
-                                          'border':''}).find('a').css('color','')
-      })
+      //
+      // $('.banner-btn li:eq(1)').hover(function(){
+      //    $('.banner-btn li:eq(1)').css({'background-color':'#50c2f4',
+      //                                    'border':'3px #fff solid'}).find('a').css('color','#fff')
+      // },function(){
+      //     $('.banner-btn li:eq(1)').css({'background-color':'',
+      //                                     'border':''}).find('a').css('color','')
+      // })
 
       $('.banner-btn li:eq(2)').hover(function(){
          $('.banner-btn li:eq(2)').css({'background-color':'#50c2f4',
