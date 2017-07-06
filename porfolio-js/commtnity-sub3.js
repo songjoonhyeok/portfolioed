@@ -48,7 +48,43 @@ $(function(){
                                           'border':''}).find('a').css('color','')
       })
 
+      var idx = 0;
+      var speed = 10000;
+      var call = function(){
+            $('.next').trigger('click')
+          }
+      var tt = setInterval(call,speed);
 
+      var handier = 0;
+
+      $('.slide-product .next').click(function(){
+        handier ++;
+        console.log(handier)
+      $('.slide-product ul').animate({
+          'right': "+=1000px"
+      })
+      if( handier >2){
+          handier = 0;
+         $('.slide-product ul').eq(handier).animate({'right': "0px"})
+          console.log('1234');
+       }
+          // console.log(idx);
+      })
+
+      $('.slide-product .prev').click(function(){
+        handier --;
+        console.log(handier)
+      $('.slide-product ul').animate({
+          'right': "-=1000px"
+      })
+      if( handier < 0){
+          handier = 0
+        return($('.slide-product ul').eq(handier).animate({'right': "0px"}))
+         $('.slide-product ul').eq(handier).animate({'right': "0px"})
+          console.log('1234');
+       }
+          // console.log(idx);
+      })
 
 
 
