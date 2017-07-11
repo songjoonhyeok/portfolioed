@@ -179,6 +179,7 @@ section {
   width: 100%;
   margin-top: 100px;
   min-height: 800px;
+  position: relative;
 }
 .home {
   width: 100%;
@@ -215,7 +216,7 @@ article {
   margin: 0 auto;
 }
 article #section {
-  max-width: 80%;
+  width: 80%;
   height: 100%;
   display: inline-block;
 }
@@ -520,6 +521,9 @@ article .product ul .img19 span strong {
 .sub-nav {
   max-width: 240px;
   height: 100%;
+  position: absolute;
+  top: 70px;
+  right: 210px;
 }
 .sub-nav ul {
   text-align: center;
@@ -528,19 +532,24 @@ article .product ul .img19 span strong {
 .sub-nav ul p {
   width: 240px;
   height: 120px;
-  background-color: #ffd6d6;
-  color: #ff4545;
-  border: 3px #ffa7a7 solid;
+  background-color: #0096cf;
+  color: #fff;
+  border: 1px #9fb4f2 solid;
   line-height: 8;
+  text-shadow: 1px 1px black;
+  border-radius: 10px;
 }
 .sub-nav ul li {
   height: 70px;
   width: 240px;
-  background-color: #ffd6d6;
-  border: 3px #ffa7a7 solid;
+  background-color: #0096cf;
+  border: 1px #9fb4f2 solid;
+  margin: 10px 0px;
+  text-shadow: 1px 1px black;
+  border-radius: 10px;
 }
 .sub-nav ul li a {
-  color: #ff4545;
+  color: #fff;
 }
 .product1 {
   height: 240px;
