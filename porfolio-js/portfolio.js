@@ -140,7 +140,7 @@ $(function(){
              slideBanner("-100%","0",btn);
              }
      })
-
+    
     // 상품 하버 가변그리드(품목 4종)
     $('.contents li').hover(function(){
       $(this).children('span').stop().animate({'margin-left':'60%'}).parent().children('.text').stop().animate({'margin-left':'460px'})
