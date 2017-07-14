@@ -126,7 +126,7 @@ $(function(){
      $('.slide li').mouseleave(function(){
         tt = setInterval(call,speed)
                 })
-     $('.slide li>a').click(function(a){
+     $('.slide li>button').click(function(a){
        a.preventDefault();
        var btn =$(this).parent().index();
        console.log(btn)
