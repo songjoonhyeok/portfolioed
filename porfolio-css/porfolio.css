@@ -459,7 +459,7 @@ section img {
   background-color: #fff;
 }
 .section1 li:first-child {
-  margin-left: 0%;
+  margin-left: 1%;
 }
 .section1 cite {
   display: inline-block;
@@ -542,7 +542,7 @@ section img {
   background-color: #fff;
 }
 .section2 li:first-child {
-  margin-left: 0%;
+  margin-left: 1%;
 }
 .section2 cite {
   display: inline-block;
